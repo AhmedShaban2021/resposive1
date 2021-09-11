@@ -1,0 +1,393 @@
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+a
+{
+    color: white;
+}
+
+/* body
+{
+  height: 4500px;
+} */
+/* ---------nav-bar-pc-------------------- */
+.bar-pc
+{
+    background-color: #484B52;
+}
+.container-bar-pc
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color: #484B52;
+    color: white;
+}
+.left-bar-pc
+{
+    display: flex;
+}
+.left-bar-pc h1
+{
+    font-size: 2em;
+    padding-right: 15px;
+}
+.left-bar-pc h1 span
+{
+    color: #479180;
+}
+.left-bar-pc2
+{
+    display: flex;
+}
+.right-bar-pc
+{
+    display: flex;
+}
+.main-left-bar-pc
+{
+    padding: 12px 12px;
+    position: relative;
+}
+.main-right-bar-pc
+{
+    padding: 12px 8px;
+    position: relative;
+}
+.main-link:hover
+{
+    color: #479180;
+}
+/* ----sub-projects------ */
+.project
+{
+    position: absolute;
+    background-color: #484B52;
+    top: 43px;
+    border-top: 2px solid #479180;
+    border-radius: 5px;
+    left: 8px;
+    padding: 3px 11px;
+    font-size: 15px;
+    width: 98px;
+    display: none;
+}
+.main-left-bar-pc:hover .project
+{
+    display: block;
+}
+.project li
+{
+    padding: 3px 0;
+    border-bottom: 1px solid black;
+
+}
+.project li a:hover
+{
+    color: #479180;
+    font-weight: bold;
+}
+/* --------lang---------------- */
+.lang
+{
+    position: absolute;
+    background-color: #484B52;
+    top: 43px;
+    border-top: 2px solid #479180;
+    border-radius: 5px;
+    left: 4px;
+    padding: 3px 11px;
+    font-size: 15px;
+    width: 45px;
+    display: none;
+}
+.main-right-bar-pc:hover .lang
+{
+    display: block;
+}
+.lang li a:hover
+{
+    color: #479180;
+    font-weight: bold;
+}
+/* ---------header-pc-background----------------- */
+.background-header
+{
+    background-image: url(../images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 43vw;
+    color: white;
+    text-align: center;
+    padding: 137px 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.background-header h1
+{
+    color: #56CCAC;
+}
+.background-header :nth-child(3)
+{
+    font-style: italic;
+} 
+@media (min-width:1000px)
+{
+    .background-header
+    {
+        padding: 170px 0;
+    }
+}
+/* -----mobile----header------------- */
+.show-in-mobile
+{
+    display: none;
+}
+/* ----------section-one------------------------------- */
+.words-section-one
+{
+    text-align: center;
+    margin: 71px 0;
+    color: #333;
+}
+/* -------section-two--------------------- */
+.flex-section2
+{
+    display: flex;
+    width: 90%;
+    align-content: space-around;
+    margin: 0 auto;
+}
+.a
+{
+    color: #333;
+    background-color: #f2f2f269;
+    margin: 0 12px 0 0;
+    text-align: center;
+    padding: 33px;
+    padding-bottom: 60px;
+
+}
+.fa-desktop , .fa-tachometer-alt , .fa-shopping-cart , .fa-cogs
+{
+    color: #56CCAC;
+    font-size: 55px;
+    padding-bottom: 21px;
+}
+.pragraph-section2
+{
+    padding-top: 12px;
+}
+.click-more-about
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.click-more-about a
+{
+    background-color: #56CCAC;
+    padding: 14px 27px;
+    border-radius: 6px;
+}
+.click-more-about:hover a
+{
+    background: #9b9595;
+}
+/* ---------main----------------------- */
+main
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+    overflow: hidden;
+}
+main h1
+{
+    margin-bottom: 70px !important;
+    text-align: center !important;
+    color: #343531;
+}
+.main-images
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.div-images
+{
+    border: 1px solid #3333332b;
+    padding: 3px 3px 0px 3px;
+}
+.click-see-more
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.click-see-more a
+{
+    background-color: #56CCAC;
+    padding: 14px 27px;
+    border-radius: 6px;
+}
+.click-see-more:hover a
+{
+    background: #9b9595;
+}
+/* -----section-3------ */
+.section3
+{
+    background: #333;
+}
+.flex-section3
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.position-border-comment1 , .position-border-comment2 , .position-border-comment3
+{
+    position: relative;
+}
+.border-comment1 ,.border-comment2 , .border-comment3
+{
+    position: relative;
+    border: 2px solid black;
+    width: 179px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 35px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: rgba(51, 51, 51, 0.623);
+    font-size: 12px;
+}
+.border-comment1:after , .border-comment2:after , .border-comment3:after
+{
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 49px;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 2px solid black;
+    border-left: 0px solid black;
+    top: 59%;
+     left: 25%; 
+    transform: rotate(35deg);
+    background: white;
+}
+.image-comment1 , .image-comment2 , .image-comment3
+{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    left: 33%;
+    border-radius: 50%;
+}
+.name-image-comment1 , .name-image-comment2 , .name-image-comment3
+{
+    position: relative;
+    top: 6px;
+    text-align: center;
+    right: 17px;
+    color: white;
+}
+.section3 h4
+{
+    color: #56CCAC;
+}
+.watch-other-comments
+{   padding: 57px 0;
+    text-align: center;
+}
+.watch-other-comments a
+{
+    background: #2caf8c;
+    padding: 7px 257px;
+}
+a:hover
+{
+    color: #2caf8c;
+    background-color: white;
+}
+/* --------section-4-------------------------- */
+.section4
+{
+    padding-bottom: 50px;
+}
+.section4 h1
+{
+    text-align: center;
+    padding: 70px;
+    color: #333;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+.container-prand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.prand-starbucks , .prand-huawei 
+{
+    width: 100px;
+}
+.prand-pepsi , .prand-ford
+{
+    width: 150px;
+}
+.starbucks , .pepsi , .huawei , .ford
+{
+    width: 100%;
+}
+/* --------------footer--------------- */
+footer
+{
+    padding: 70px 0;
+    background: #333333;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 174px;
+}
+.media
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0px 314px;
+    color: #f2f2f2;
+}
+footer h6
+{
+    text-align: center;
+    padding-top: 31px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

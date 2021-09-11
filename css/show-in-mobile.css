@@ -1,0 +1,306 @@
+/* header */
+@media (max-width:795px) 
+{
+    .show-in-pc
+    {
+        display: none;
+    }
+    .show-in-mobile
+    {
+        display: block;
+    }
+}
+.mobile-nav
+{
+    position: relative;
+    background-color: #484B52;
+    color: white;
+}
+.mobile-nav h1
+{
+    padding: 20px;
+}
+.mobile-nav h1 span 
+{
+    color: #479180;
+}
+input
+{
+    display: none;
+}
+.burger-position
+{
+    position: absolute;
+    top: 20px;
+    right: 68px;
+}
+.fa-bars
+{
+    font-size: 30px;
+    transform: scaleX(1.5);
+    color: white;
+}
+.fa-bars:hover
+{
+    color: #479180;;
+    
+}
+/* ---------burger-click----------------------- */
+.show-on-click
+{
+    display: none;
+    text-align: center;
+}
+#burger:checked + .show-on-click
+{
+    display: block;
+}
+/* ----------show-on-click-style-------------------------- */
+.mobile-nav
+{
+    font-size: 21px;
+}
+.home-padding , .about-padding , .mow-padding , .login-paffing
+{
+    padding-bottom: 13px;
+    cursor: context-menu;
+    padding-top: 9px;
+
+}
+.home-padding:hover , .about-padding:hover , .mow-padding:hover , .login-paffing:hover
+{
+    color: #479180;
+    background-color: white;
+}
+
+
+/* ------prijects-in-mobile---------------------- */
+.div-projects:hover
+{
+    color: #479180;
+    background-color: white;
+}
+.project-in-mobile
+{
+    display: none;
+}
+#click-projects:checked + .project-in-mobile
+{
+    display: block;
+}
+.labal-project
+{
+    display: block;
+    padding-bottom: 9px;
+}
+.project-in-mobile
+{
+    padding-bottom: 13px;
+}
+.project-in-mobile a
+{
+    color: #6097c2;
+}
+.project-in-mobile a:hover
+{
+    color: #484B52;
+}
+/* ---------chang-lang-in-mobile-------------------------------- */
+.show-ar
+{
+    display: none;
+}
+.div-lang:hover
+{
+    color: #479180;
+    background-color: white;
+}
+#lang-mobile:checked + .show-ar
+{
+    display: block;
+}
+.label-lang
+{
+    display: block;
+    padding-bottom: 9px;
+}
+.show-ar
+{
+    padding-bottom: 15px;
+}
+.show-ar a
+{
+    color: #6097c2;
+}
+
+.show-ar a:hover
+{
+    color: #484B52;
+}
+/* -----------header-background---------------- */
+.background-header-mobile
+{
+    background-image: url(../images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 60vw;
+    color: white;
+    text-align: center;
+    padding: 137px 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.background-header-mobile h1
+{
+    color: #56CCAC;
+}
+.background-header-mobile :nth-child(3)
+{
+    font-style: italic;
+}
+@media (max-width:368px)
+{
+.background-header-mobile
+    {
+        font-size: 12px;
+        padding: 57px 0;
+    }
+}
+/* -----------section-one----------- */
+@media (max-width:798px)
+{
+    .words-section-one p
+    {
+      padding-bottom: 10px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .words-section-one h1
+    {
+        padding-bottom: 9px;
+    }
+}
+/* --------------section-two---------------------- */
+@media (max-width:1054px)
+{
+    .flex-section2
+    {
+        flex-direction: column;
+    }
+    .a
+    {
+        margin-bottom: 25px;
+    }
+}
+/* ------------------------------------------- */
+@media (max-width:803px)
+{
+    .main-images-mobile
+    {
+        padding-bottom: 20px;
+    }
+}
+/* ------------section-3--------------------------- */
+@media (min-width:351px) and (max-width:900px) 
+{
+    .watch-other-comments a
+    {
+        padding: 7px 25px;
+    }
+}
+
+@media (min-width:300px) and (max-width:350px) 
+{
+    .watch-other-comments a
+    {
+        padding: 7px 3px;
+    }
+}
+@media (max-width:299px)
+{
+    .watch-other-comments a
+    {
+        padding: 7px 0px;
+    }
+}
+/* -------section-4------------------------ */
+@media (min-width:400px) and (max-width:575px)
+{
+    .section4 h1
+    {
+        padding: 73px 0;
+        font-size: 21px;
+    }
+    .prand-starbucks 
+    {
+        width: 60px;
+    }
+    .prand-huawei 
+    {
+        width: 50px;
+    }
+    .prand-pepsi , .prand-ford
+    {
+        width: 71px;
+    }
+}
+@media (max-width:399.9px)
+{
+    .section4 h1
+    {
+        padding: 73px 0;
+        font-size: 15px;
+    }
+    .prand-starbucks 
+    {
+        width: 40px;
+    }
+    .prand-huawei 
+    {
+        width: 40px;
+    }
+    .prand-pepsi 
+    {
+        width: 55px;
+    }
+    .prand-ford
+    {
+        width: 50px;
+    }
+}
+/* ------------footer------------------- */
+@media (max-width:575px)
+{
+    .media
+    {
+        padding: 0px 15px;
+    }
+}
+@media(min-width:576px) and (max-width:767px)
+{
+    .media
+    {
+        padding: 0px 48px;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .media
+    {
+        padding: 0px 135px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px)
+{
+    .media
+    {
+        padding: 0px 216px;
+    }
+}
+
+
+
+
+
+
+
